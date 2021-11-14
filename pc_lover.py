@@ -7,7 +7,7 @@ def Convert(string):
     list1[:0]=string
     return list1
 
-x = "LOL"
+x = "" #type a text here
 
 x = Convert(x)
 
