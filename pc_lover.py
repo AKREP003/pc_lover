@@ -5,7 +5,7 @@ from itertools import permutations
 
 def Convert(string):
     list1=[]
-    list1.append(s*random.randint(0,99999))
+    list1.append(string*random.randint(0,99999))
     for i in range(random.randint(0,99999)):
         yield list1
 
